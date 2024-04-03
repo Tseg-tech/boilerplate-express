@@ -12,10 +12,10 @@ let bodyParser = require("body-parser");
 // });
 
 // ==== Serve an HTML File
-// app.get("/", (req, res) => {
-//   let absolutePath = __dirname + "/views/index.html";
-//   res.sendFile(absolutePath);
-// });
+app.get("/", (req, res) => {
+  let absolutePath = __dirname + "/views/index.html";
+   res.sendFile(absolutePath);
+});
 
 //==== Serve Static Assets
 // app.use("/public", express.static(__dirname + "/public"));
