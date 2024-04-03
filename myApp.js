@@ -4,7 +4,7 @@ require("dotenv").config();
 let bodyParser = require("body-parser");
 
 // ==== Meet the Node console
-// console.log("Hello World");
+ console.log("Hello World");
 
 // ==== Start a Working Express Server
 // app.get("/", (req, res) => {
